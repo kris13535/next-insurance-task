@@ -1,0 +1,60 @@
+
+h1,label, button, .alert{
+  font-family: 'Baloo Bhai', cursive;
+}
+
+input, .error{
+  font-family: 'Crimson Text', serif;
+}
+
+.form_box {
+  margin: 20px;
+  padding: 20px;
+  max-width: 600px;
+
+}
+.headline{
+  text-align: center;
+}
+
+.inputs_div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.col-form-label{
+  font-weight: bold;
+  margin-left: 15px;
+
+}
+
+.form-control{
+  width: 400px;
+}
+
+.error{
+  text-align: left;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  font-size: 20px;
+  max-width: 400px;
+}
+
+.submit_div{
+  text-align: center;
+  margin-left: 35px;
+  button{
+    background: #c3121b;
+    color: white;
+    &:hover{
+      background: #990f14;
+      color: white;
+    }
+  }
+}
+
+.alert{
+  text-align: center;
+}

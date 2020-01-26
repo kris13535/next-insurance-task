@@ -1,0 +1,33 @@
+body {
+  background-image: url("/images/car1.jpg"); }
+
+.open_form_button {
+  font-family: 'Baloo Bhai', cursive;
+  position: absolute;
+  top: 250px;
+  left: 50%;
+  padding: 10px 15px 10px 15px;
+  background: #2e2e2e;
+  font-size: 20px;
+  color: white;
+  border: none; }
+  .open_form_button:hover {
+    background: #111111;
+    color: white; }
+
+.form_window {
+  background: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }

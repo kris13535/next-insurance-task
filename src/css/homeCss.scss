@@ -1,0 +1,30 @@
+
+body {
+  background-image: url("/images/car1.jpg");
+
+}
+
+.open_form_button{
+  font-family: 'Baloo Bhai', cursive;
+  position: absolute;
+  top: 250px;
+  left: 50%;
+  padding: 10px 15px 10px 15px;
+  background: #2e2e2e;
+  font-size: 20px;
+  color: white;
+  border: none;
+  &:hover{
+    background: #111111;
+    color: white;
+  }
+}
+
+.form_window{
+  background:rgba(0,0,0,0.5);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
